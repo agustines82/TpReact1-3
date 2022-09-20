@@ -1,5 +1,8 @@
+import TilutoPrincipal from "./components/TilutoPrincipal";
+
 function App() {
-    return <h1>Hello World!</h1>;
+    let titulo = "Hello my friend!";
+    return <TilutoPrincipal tituloActual={titulo} />;
 }
 
 export default App;
